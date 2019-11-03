@@ -1,0 +1,201 @@
+body{  font-family:"微软雅黑","Arial"; background: #f2f2f2;}
+@media screen and (min-width: 1470px){
+	.w1470{ width: 1470px;}
+}
+@media screen and (max-width: 1470px){
+	.w1470{ width: 1100px;overflow: hidden;}
+}
+.bg15_ > *{background-color:rgb(255,255,255); }
+.bgf8f7f7{ background:#F2F2F2;}
+.bgc2c2c2{ background:#c2c2c2;}
+.bg242a20{ background:#242a20; }
+.bg505050{ background:#505050; }
+.bgf3f2f2{ background:#f3f2f2; }
+.bga5d455{ background:#a5d455; }
+.bg92cc2e{ background:#92cc2e;}
+.bgedf2f2{ background:#edf2f2;}
+.bgf6f6f6{ background:#f6f6f6;}
+.bgfa6b24{ background: #fa6b24;}
+.bg4dc3ec{ background: #4dc3ec;}
+.bg96b4eb{ background: #96b4eb;}
+.bga8bdc5{ background: #a8bdc5;}
+.bge9e8e8{ background: #e9e8e8;}
+.bdDDD{ border: 1px solid #ddd;}
+.bdB8b8c8b{ border-bottom: 1px solid #8b8c8b;}
+.bdB92cc2e{ border-bottom: 1px solid #92cc2e;}
+.cl333{ color:#333; }
+.cl666{ color:#666; }
+.cl666_ > *{ color:#666; }
+.cl888{ color:#888; }
+.cl999{ color:#999; }
+.clcfcece{ color:#cfcece; }
+.cla1a1a1{ color:#a1a1a1;}
+.clb3b3b3{ color: #b3b3b3;}
+*+html .w180{ width: 160px; }
+.w328{ width: 328px; }
+.w330{ width: 330px; }
+.w345{ width: 345px; }
+.w480{ width: 480px; }
+.w670{ width: 670px; }
+.w830{ width: 830px; }
+.w860{ width: 860px; }
+.w940{ width: 940px; }
+.w1020{ width: 1020px; }
+.w1110{ width: 1110px; }
+.w1164{ width: 1164px; }
+
+.h102{ height:102px; }
+.h225{ height:225px; }
+.h275{ height:275px; }
+.h295{ height:295px; }
+.h435{ height: 435px; }
+.h565{ height: 565px; }
+.h655{ height: 655px; }
+.l650{ left:650px; }
+.mgL12{ margin-left:12px;}
+.mgL31{ margin-left:31px; }
+.mgL60{ margin-left:60px; }
+.mgL70{ margin-left:70px; }
+.mgL-960{ margin-left: -960px; }
+.l22{ left:22px; }
+.l520{ left:520px; }
+.l525{ left:525px; }
+.l580{ left:580px; }
+.l640{ left:640px; }
+.mgL-22{ margin-left:-22px; }
+.l-140{ left:-140px; }
+.l-170{ left: -170px; }
+.l-200{ left: -200px; }
+.lp-100{ left:-100%;}
+.lp100{ left:100%;}
+
+.r-50{ right: -50px;}
+.lp50_ > *{left: 50%;}
+.mgL-960_ > *{ margin-left: -960px; }
+.pd80{ padding:0px 80px 70px 80px;}
+.mgT32{ margin-top:32px; }
+.mgT55{ margin-top:55px;}
+.mgT-22{ margin-top:-22px;}
+
+.ftS_nm{ font-style: normal; } 
+.ftWN{ font-weight: normal; }
+.boxsd4{/*四周阴影,阴影效果*/
+	box-shadow:2px 2px 3px 0px rgb(187,187,187);
+}
+.boxsd4_ > *{/*四周阴影,阴影效果*/
+	box-shadow:1px 1px 1px 0px rgb(210,210,210);
+}
+
+
+li{list-style: none;}
+
+ul.nav{
+	float: right;
+}
+ul.nav li a{
+	line-height: 68px;
+	color: #fff;
+	margin-left: 40px;
+}
+ul.nav li a.selected{
+	color: #92cc2e;
+	border-bottom:2px solid #92cc2e;
+}
+ul.nav li a:hover{
+	color: #92cc2e;
+	border-bottom:2px solid #92cc2e;
+}
+
+ul.case_category{
+	width:325px;
+}
+ul.case_category li.cs_nav{
+	width:65px;
+	height:65px;
+	line-height:65px;
+	list-style:none;
+	cursor:pointer;
+	text-align:center;
+	font-size: 20px;
+	border-radius: 100%;
+	color:#fff;
+	background: #a5d455;
+}
+
+ul.case_category li.selected{
+	width:65px;
+	height:65px;
+	line-height:65px;
+	list-style:none;
+	cursor:pointer;
+	z-index:1;
+	position:relative;
+	display: block;
+	border-radius: 100%;
+	color:#fff;
+	background: #ff0000;
+}
+ul.case_category li a:hover{}
+.case_show {
+	width:100%;
+}
+.case_show .mod{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.triangle{
+	width:0px;
+	height:0px;
+	border-left:20px solid #f2f2f2;
+	border-top:0px solid #f2f2f2;
+	border-bottom:20px solid #f2f2f2;	
+}
+.bg699c12{	border-right:20px solid #699c12;}
+.bgcb4f11{	border-right:20px solid #cb4f11;}
+.bg1d9eca{	border-right:20px solid #1d9eca;}
+.bg6a8dcd{ border-right:20px solid #6a8dcd;}
+.bg849aa2{  border-right:20px solid #849aa2;}
+.page{
+	position:absolute;
+	left:50%;
+	top:0;
+	margin-left: -100px;
+}
+.page a{ 
+	float:left;
+	width:50px;
+	height:35px;
+	line-height: 35px;
+	background: #fff;
+	color:#2A2F3B;
+	font-size: 16px;
+	margin-left:10px;
+	text-align: center;
+}
+.page a.selected { color:#92cc2e; }
+i.ces_ico{ background:url(../images/careers_ico.png);}
+.left_ico{
+	transition: left 0.3s;
+	-moz-transition: left 0.3s; /* Firefox 4 */
+	-webkit-transition: left 0.3s; /* Safari 和 Chrome */
+	-o-transition: left 0.3s; /* Opera */
+}
+.case_s:hover .left_ico{
+	left:-50%;
+}
+.right_ico{
+	transition: left 0.3s;
+	-moz-transition: left 0.3s; /* Firefox 4 */
+	-webkit-transition: left 0.3s; /* Safari 和 Chrome */
+	-o-transition: left 0.3s; /* Opera */
+}
+.case_s:hover .right_ico{
+	left:50%;
+}
+.recordNumber{
+	float: none;
+	margin-left: 10px;
+	color: #666;
+}
