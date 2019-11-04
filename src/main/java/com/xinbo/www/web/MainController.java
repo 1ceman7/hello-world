@@ -20,6 +20,9 @@ public class MainController {
 
         return "main";
     }
+    public String listTest(Model model){
+        return  "main";
+    }
 
 
 }
